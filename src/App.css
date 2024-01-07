@@ -1,3 +1,93 @@
 body {
   margin: 0;
+  padding: 0;
 }
+
+/* ////////// Navbar ////////// */
+.navbar {
+  background-color: green;
+  height: 10vh;
+}
+
+
+
+/* ////////// Hero ////////// */
+
+.hero {
+  background-color: greenyellow;
+  height: 90vh;
+ 
+  text-align: center;
+ 
+}
+
+.heroTitle {
+  color: brown;
+  font-size: 3em;
+  margin: 0;
+}
+
+.heroText {
+  color: brown;
+  font-size: 1.5em;
+}
+
+
+
+/* ////////// About ////////// */
+.about {
+  background-color: aquamarine;
+  height: 90vh;
+}
+
+.aboutContainer {
+  width: 100%;
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutImg {
+  flex: 1;
+  overflow: hidden;
+  margin: 10;
+}
+
+.largeImg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-left: 0%;
+  padding-right: 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContent {
+  flex: 1;
+}
+
+
+
+/* ////////// Cards ////////// */
+.services {
+  background-color: bisque;
+  height: 90vh;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardLayout {
+  background-color:blueviolet;
+}
+
+
+
